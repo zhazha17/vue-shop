@@ -12,9 +12,17 @@ import '../node_modules/element-plus/dist/index.css'
 import * as ElIconModules from '@element-plus/icons-vue'
 // 导入 axios
 import axios from 'axios'
+// 导入字体图标
+import './assets/fonts/iconfont.css'
 const app = createApp(App)
 // 为 axios 配置请求的根路径
 axios.defaults.baseURL = 'http://127.0.0.1:8888/api/private/v1/'
+//
+axios.interceptors.request.use((config) => {
+  // console.log(config)
+  config.headers.Authorization = window.sessionStorage.getItem('token')
+  return config
+})
 // 将 axios 挂载为 app 的全局自定义属性
 app.config.globalProperties.$http = axios
 

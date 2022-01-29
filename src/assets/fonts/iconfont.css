@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3164099 */
+  src: url('iconfont.woff2?t=1643344583750') format('woff2'),
+       url('iconfont.woff?t=1643344583750') format('woff'),
+       url('iconfont.ttf?t=1643344583750') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-delete:before {
+  content: "\e6b4";
+}
+
+.icon-delete1:before {
+  content: "\e67e";
+}
+
+.icon-edit:before {
+  content: "\e733";
+}
+
+.icon-delete2:before {
+  content: "\e699";
+}
+
+.icon-settings:before {
+  content: "\e69a";
+}
+
+.icon-bianji:before {
+  content: "\e8ac";
+}
+
+.icon-editor:before {
+  content: "\e6f6";
+}
+
+.icon-setting:before {
+  content: "\e6f0";
+}
+
+.icon-lock_fill:before {
+  content: "\e709";
+}
+
+.icon-mima1:before {
+  content: "\e619";
+}
+
+.icon-search:before {
+  content: "\e6e1";
+}
+
+.icon-search1:before {
+  content: "\e7b3";
+}
+
+.icon-mima:before {
+  content: "\e620";
+}
+
+.icon-showpassword:before {
+  content: "\ea3f";
+}
+
+.icon-user:before {
+  content: "\e62d";
+}
+
+.icon-user1:before {
+  content: "\e64d";
+}
+
+.icon-users:before {
+  content: "\e651";
+}
+
+.icon-shangpin:before {
+  content: "\e888";
+}
+
+.icon-danju:before {
+  content: "\e89b";
+}
+
+.icon-tijikongjian:before {
+  content: "\e89f";
+}
+
+.icon-baobiao:before {
+  content: "\e902";
+}
+
+.icon-user-group-fill:before {
+  content: "\e7d3";
+}
+

@@ -3,6 +3,8 @@ import Login from '../components/Login.vue'
 import Home from '../components/Home.vue'
 import Welcome from '../components/Welcome.vue'
 import Users from '../components/user/Users.vue'
+import Rights from '../components/power/Rights.vue'
+import Roles from '../components/power/Roles.vue'
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -15,7 +17,9 @@ const router = createRouter({
       redirect: '/welcome',
       children: [
         { path: '/welcome', component: Welcome },
-        { path: 'users', component: Users }
+        { path: 'users', component: Users },
+        { path: 'rights', component: Rights },
+        { path: 'roles', component: Roles }
       ]
     }
   ]

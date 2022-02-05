@@ -5,6 +5,7 @@ import Welcome from '../components/Welcome.vue'
 import Users from '../components/user/Users.vue'
 import Rights from '../components/power/Rights.vue'
 import Roles from '../components/power/Roles.vue'
+import Cate from '../components/goods/Cate.vue'
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -19,7 +20,12 @@ const router = createRouter({
         { path: '/welcome', component: Welcome },
         { path: 'users', component: Users },
         { path: 'rights', component: Rights },
-        { path: 'roles', component: Roles }
+        { path: 'roles', component: Roles },
+        { path: 'categories', component: Cate },
+        { path: 'goods', component: Cate },
+        { path: 'params', component: Cate },
+        { path: 'orders', component: Cate },
+        { path: 'reports', component: Cate }
       ]
     }
   ]

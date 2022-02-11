@@ -273,14 +273,13 @@ router.beforeEach((to, from, next) => {
 
 基于 token 的方式实现退出功能，只要销毁本地的 token 即可。
 
-`````
-// 清空  token
-window
-`````
+````````
+ window.sessionStorage.removeItem("token");
+````````
 
 eslint 格式化文件 
 
-新建 `.prettierrc` 文件7、
+新建 `.prettierrc` 文件
 
 ``````
 {
